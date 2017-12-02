@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pUI">
+    <output-path>$PROJECT_DIR$/out/artifacts/pUI</output-path>
+    <root id="archive" name="pUI.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/data" />
+      <element id="dir-copy" path="$PROJECT_DIR$/META-INF" />
+      <element id="dir-copy" path="$PROJECT_DIR$/test" />
+      <element id="module-output" name="pUI" />
+    </root>
+  </artifact>
+</component>
