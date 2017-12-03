@@ -65,7 +65,8 @@ public class Label extends Widget<Label> {
 		p.textAlign(PApplet.LEFT, PApplet.TOP);
 		p.text(text, x+1, y);
 	}
-	
+
+
 	// get width of the current text
 	float textWidth() {
 		return textWidth(height);
