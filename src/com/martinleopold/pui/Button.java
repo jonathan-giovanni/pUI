@@ -28,7 +28,17 @@ import processing.core.PApplet;
 public class Button extends WidgetWithLabel<Button> {
 	// state
 	boolean pressed;
-	
+
+	public String getId() {
+		return id;
+	}
+
+	public Button setId(String id) {
+		this.id = id;
+		return getThis();
+	}
+
+	String id;
 	public Button(PUI pui, int width, int height) {
 		super(pui, width, height);
 	}
